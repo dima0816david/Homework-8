@@ -1,0 +1,293 @@
+body {
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+
+}
+
+.header-nav {
+    
+}
+
+.header-list {
+    display: flex;
+    list-style-type: none;
+    
+}
+
+.header-list-item {
+
+}
+
+.header-list-item a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #150101;
+    opacity: 0.6;
+    padding: 20px;
+}
+
+.header-list-item .active {
+    opacity: 1;
+    font-weight: bold;
+}
+
+.header-list-item .list-link {
+    background: #ea125a;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FAFAFA;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.hero-title {
+    font-weight: 400;
+    font-size: 57.33px;
+    line-height: 120.5%;
+    color: #0F0101;
+    opacity: 0.9;
+    width: 665px;
+    margin-bottom: 35px;
+}
+
+.hero-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #0F0101;
+    opacity: 0.6;
+    width: 523px;
+    margin-bottom: 50px;
+}
+
+.hero-link {
+    background: #D23166;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FAFAFA;
+    display: block;
+    width: 165px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.logo-1 {
+    width: 250px;
+    height: 200px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 10px 1px rgb(203, 191, 191);
+
+}
+
+.hero-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+    
+}
+
+.hero-2-title {
+    font-weight: 600;
+    font-size: 44.2px;
+    line-height: 49px;
+    color: #150101;
+    width: 350px;
+    margin-bottom: 35px;
+}
+
+.hero-2-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #150101;
+    opacity: 0.6;
+    width: 523px;
+    margin-bottom: 50px;
+}
+
+.hero-2-link {
+    background: #D23166;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FAFAFA;
+    display: block;
+    width: 165px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.back-color {
+    width: 1600px;
+    background-color: pink ;
+}
+
+
+.main-text {
+    font-weight: 600;
+    font-size: 44.2px;
+    line-height: 61px;
+    color: #150101;
+    text-align: center;
+}
+
+.main-list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    text-decoration: none;
+    margin-top: 20px;   
+}
+
+.li-text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    opacity: 0.6;
+    padding: 20px;
+}
+
+.active {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    opacity: 1;
+    font-weight: bold;
+}
+
+.old-price {
+    text-decoration-line: line-through;
+    opacity: 0.6;
+    margin-bottom: 20px;
+}
+
+.end-main {
+    width: 1600px;
+    background-color: pink;
+}
+
+.text-end {
+    text-align: center;
+}
+
+.input {
+    padding: 15px;
+    width: 15%;
+    border: 2px rgb(205, 127, 85) solid;
+    outline: none;
+    border-radius: 5px;
+    font-size: 14px;
+    align-items: center;
+    
+}
+
+.tugma {
+    padding: 15px;
+    width: 5%;
+    border: 2px rgb(205, 127, 85) solid;
+    outline: none;
+    border-radius: 5px;
+    font-size: 14px;
+    align-items: center;
+    background-color: #D23166;
+    color: #FAFAFA;
+}
+
+.joylashuv {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    width: 1600px;
+    height: 380px;
+    background-color: #000000;
+    color: #FAFAFA;
+}
+
+.foot-bir {
+    width: 300px;
+    display: inline-block;
+    align-items: center;
+}
+
+.foot-ikki {
+    width: 300px;
+    display: inline-block;
+    
+}
+
+.foot-list {
+    list-style-type: none;
+    align-items: center;
+}
+
+.foot-uch {
+    width: 300px;
+    display: inline-block;
+}
+
+.foot-tort {
+    width: 300px;
+    display: inline-block; 
+}
+
+.footer-main {
+
+    width: 1600px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
